@@ -1,0 +1,85 @@
+.row1 {
+    display: flex; 
+    height: 100vh; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;  
+    
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+    color: pink;
+}
+
+/* links default style*/
+.mdl-navigation__link1, .mdl-navigation__link2, .mdl-navigation__link3, .mdl-navigation__link4{
+    font-size: 23px;
+    font-family: 'Monoton', cursive;
+    color: hotpink;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* title default font */
+.mdl-layout-title {
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+    color: pink; 
+    text-decoration: none; 
+} 
+
+p2 {
+    font-size: 10px;
+    font-family: 'Monoton', cursive; 
+    color: pink;
+    margin: auto 90%;
+}
+
+<style>
+a:link {
+    color: pink; 
+    background-color: pink; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: greenyellow;
+}
+
+a:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.textmid{
+    color: white;
+    display: flex;
+    padding: 80px;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
